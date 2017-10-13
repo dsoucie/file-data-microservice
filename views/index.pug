@@ -1,0 +1,9 @@
+html
+  head
+    title File Metadata Microservice
+  body
+    h2 File Metadata Microservice
+    p Select a file to upload to view its size in bytes.
+    form(method='post' enctype='multipart/form-data' action='/file-upload')
+      input(type='file' name='myFile')
+      input(type='submit')
